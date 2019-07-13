@@ -1,4 +1,8 @@
-﻿
+﻿spring:
+  profiles:dev
+  application:
+    name:microservicecloud-config-eureka-client
+
 eureka:
   instance:
     hostname: eureca7001.com   #eureca服务端的实例名称
